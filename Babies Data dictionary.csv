@@ -1,0 +1,142 @@
+X1,yearmonth,"year as 4 number, and month as 2 number of date a birth",
+X3,placetype,"1 = Hospital
+2 = Freestanding Birth Center
+3 = Home (intended)
+4 = Home (not intended)
+5 = Home (unknown intention) 
+6 = Clinic/Doc Office
+7 = Other
+9 = unknown",
+X5,mothersage,age in years of the mother,
+X6,mothersbirthplace,"1 = Born in US
+2 = Born outside US
+3 = Unknown",
+X7,mothersrace,"01 White (only) 
+02 Black (only) 
+03 AIAN (only) 
+04 Asian Indian (only) 
+05 Chinese (only) 
+06 Filipino (only) 
+07 Japanese (only) 
+08 Korean (only) 
+08 Vietnamese (only) 
+09 Other Asian (only) 
+09 Hawaiian (only) 
+10 Guamanian (only) 
+11 Samoan (only) 
+12 Other Pacific Islander (only) 
+13 More than one race",*column2-3
+X9,Mothershispanic,"0 Not Hispanic
+1  Mexican 
+2 Puerto Rican 
+3 Cuban Central and South American 
+5 Other and Unknown Hispanic origin
+9 Hispanic origin not stated",
+X10,maritalstatus,"1 = Married
+2 = Not Married",
+X11,mothersEDU,"1 8th grade or less 
+2 9th through 12th grade with no diploma 
+3 High school graduate or GED completed 
+ 4 Some college credit, but not a degree. 
+5 Associate degree (AA,AS) 
+6 Bachelor’s degree (BA, AB, BS) 
+7 Master’s degree (MA, MS, MEng, MEd, MSW, MBA) 
+8 Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD) 
+9 Unknown",
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+X20,monthsprev,"Interval since last live birth
+00 Zero to 3 months (plural delivery) 
+Use reporting flag in field 126	 01 4 to 11 months 
+02 12 to 17 months 
+03 18 to 23 months 
+04 24 to 35 months 
+05 36 to 47 months 
+06 48 to 59 months 
+07 60 to 71 months 
+08 72 months and over 
+Data from non-reporting areas for an item are represented by Blanks (“not on certificate”) that are not otherwise indicated in the Values and Definitions. 
+18 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+Position Length Field Description Values Definition 
+88 Not applicable (1st live birth) 
+99 Unknown or not stated ",
+X23,care,"
+1-10 Month of pregnancy prenatal care began 
+99 Unknown or not stated",
+X26,WIC,"Is mother receiving WIC?
+Y = Yes
+N = No
+U = Unknown",
+X26 ,Smoke,"Does the mother smoke?
+Y = Yes
+N = No
+U = Unknown or not stated",
+X27,mht,mothers height in inches,
+X27,BMI,mothers pre pregnancy BMI,
+X29,mwt,mothers weight at delivery,
+X31,diabetes,"did mother have diabetes BEFORE pregnancy?
+Y = Yes
+N = No
+U = Unknown or not stated",
+X31,gestD,"Did mother have Gestational diabetes?
+Y = Yes
+N = No
+U = Unknown or not stated",
+X31,infertility,"Was infertility treatment used?
+Y = Yes
+N = No
+U = Unknown or not stated",
+X31,fertdrugs,"Were fertility enhancing drugs used?
+Y = Yes
+N = No
+X = NA
+U = Unknown or not stated",
+X31,tech,"was assistant reproductive technology used?
+Y = Yes
+N = No
+X = NA
+U = Unknown or not stated",
+X33,STDs,"No presence of STDs
+NO presence of STDs
+1 = True
+0 = False (STDs were present)
+9 = UNK",
+X36,induced,Was the mother induced?,
+X36,augmented,Was the labor augmented?,
+X43,plurality,"1 = Single baby
+2 = Twins
+3 = Triplets
+4 = quadruplet or higher",
+X45,sexofinfant,"M = Male
+F = Female",
+X47,weeks,Gestational weeks of infant at birth,
+X48,babyweight,Weight on infant at birth in grams,
+X50,NICU,"Was infant admitted to the NICU?
+Y = Yes
+N = No
+U = Unkown",
